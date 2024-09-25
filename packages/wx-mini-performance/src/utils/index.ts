@@ -1,4 +1,4 @@
-import { setUrlQuery, variableTypeDetection, generateUUID } from '@mitojs/utils'
+import { setUrlQuery, variableTypeDetection, generateUUID } from '@mitojs/remitojs-utils'
 import { STORAGE_KEY } from '../constant'
 
 export function noop() {}

@@ -1,4 +1,4 @@
-import { BasePluginType } from '@mitojs/types'
+import { BasePluginType } from '@mitojs/remitojs-types'
 import wxAppPlugins from './plugins/wxApp'
 import wxConsolePlugin from './plugins/wxConsole'
 import wxDomPlugin from './plugins/wxDom'

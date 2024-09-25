@@ -1,0 +1,31 @@
+{
+  "name": "remitojs-core",
+  "version": "0.0.4",
+  "description": "remitojs-core",
+  "author": "Lgowen",
+  "license": "MIT",
+  "main": "dist/remitojs-core.js",
+  "module": "dist/remitojs-core.esm.js",
+  "types": "dist/remitojs-core.d.ts",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/Lgowen/mitojs/blob/master/packages/core/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lgowen/mitojs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lgowen/mitojs/issues"
+  },
+  "keywords": [
+    "mitojs",
+    "sdk",
+    "monitor"
+  ],
+  "dependencies": {
+    "remitojs-shared": "0.0.4",
+    "remitojs-types": "0.0.4",
+    "remitojs-utils": "0.0.4"
+  }
+}

@@ -1,6 +1,6 @@
 import { ErrorTypes, WxBaseEventTypes, WxBreadcrumbTypes, WxEventTypes, WxRouteEvents } from '@mitojs/shared'
-import { getCurrentRoute, Severity, variableTypeDetection } from '@mitojs/utils'
-import { BasePluginType, ReportDataType } from '@mitojs/types'
+import { getCurrentRoute, Severity, variableTypeDetection } from '@mitojs/remitojs-utils'
+import { BasePluginType, ReportDataType } from '@mitojs/remitojs-types'
 import { addBreadcrumbInWx, getNavigateBackTargetUrl } from '../utils'
 import { WxClient } from '../wxClient'
 import { WxRouteCollectType } from '../types'

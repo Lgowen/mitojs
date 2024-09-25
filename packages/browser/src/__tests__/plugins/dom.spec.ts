@@ -1,5 +1,5 @@
 import { BrowserBreadcrumbTypes } from '@mitojs/shared'
-import { getBreadcrumbCategoryInBrowser, Severity, sleepRun } from '@mitojs/utils'
+import { getBreadcrumbCategoryInBrowser, Severity, sleepRun } from '@mitojs/remitojs-utils'
 import { BrowserClient } from '../../browserClient'
 import domPlugin, { DomCollectedType } from '../../plugins/dom'
 

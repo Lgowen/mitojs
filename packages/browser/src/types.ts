@@ -1,4 +1,4 @@
-import { BaseOptionsFieldsIntegrationType } from '@mitojs/types'
+import { BaseOptionsFieldsIntegrationType } from '@mitojs/remitojs-types'
 
 export interface BrowserOptionsFieldsTypes extends BrowsersilentOptionsType, BaseOptionsFieldsIntegrationType, BrowserOptionsHooksType {
   /**

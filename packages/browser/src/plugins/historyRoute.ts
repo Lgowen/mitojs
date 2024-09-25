@@ -1,6 +1,6 @@
 import { BrowserEventTypes } from '@mitojs/shared'
-import { getLocationHref, replaceOld, supportsHistory, _global } from '@mitojs/utils'
-import { BasePluginType, RouteChangeCollectType, voidFun } from '@mitojs/types'
+import { getLocationHref, replaceOld, supportsHistory, _global } from '@mitojs/remitojs-utils'
+import { BasePluginType, RouteChangeCollectType, voidFun } from '@mitojs/remitojs-types'
 import { BrowserClient } from '../browserClient'
 import { routeTransform, routeTransformedConsumer } from './hashRoute'
 

@@ -1,4 +1,4 @@
-import { BaseClient } from '@mitojs/core'
+import { BaseClient } from '@mitojs/remitojs-core'
 import { FC, createContext } from 'react'
 import { MitoContextValueType } from '../types'
 

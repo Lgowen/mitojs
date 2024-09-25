@@ -1,6 +1,6 @@
 import { BrowserBreadcrumbTypes, BrowserEventTypes, globalVar } from '@mitojs/shared'
-import { replaceOld, Severity, _global } from '@mitojs/utils'
-import { BasePluginType, ConsoleCollectType } from '@mitojs/types'
+import { replaceOld, Severity, _global } from '@mitojs/remitojs-utils'
+import { BasePluginType, ConsoleCollectType } from '@mitojs/remitojs-types'
 import { BrowserClient } from '../browserClient'
 import { addBreadcrumbInBrowser } from '../utils'
 const consolePlugin: BasePluginType<BrowserEventTypes, BrowserClient> = {

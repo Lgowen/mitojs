@@ -1,7 +1,7 @@
 import { BaseBreadcrumbTypes, BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, ErrorTypes, SDK_NAME, SDK_VERSION } from '@mitojs/shared'
 import { vueUrl } from '@/test/config'
-import { TransportDataType, ReportDataType } from '@mitojs/types'
-import { Severity } from '@mitojs/utils'
+import { TransportDataType, ReportDataType } from '@mitojs/remitojs-types'
+import { Severity } from '@mitojs/remitojs-utils'
 import puppeteer from 'puppeteer'
 import { BrowserClient } from '@mitojs/browser'
 

@@ -1,7 +1,15 @@
-import { Breadcrumb, BaseClient } from '@mitojs/core'
+import { Breadcrumb, BaseClient } from '@mitojs/remitojs-core'
 import { ErrorTypes, EventTypes, MitoLog, MitoLogEmptyMsg, MitoLogEmptyTag, Silent, WxBreadcrumbTypes, WxEventTypes } from '@mitojs/shared'
-import { extractErrorStack, firstStrtoUppercase, getCurrentRoute, getTimestamp, isError, Severity, unknownToString } from '@mitojs/utils'
-import { LogTypes, TrackReportDataType } from '@mitojs/types'
+import {
+  extractErrorStack,
+  firstStrtoUppercase,
+  getCurrentRoute,
+  getTimestamp,
+  isError,
+  Severity,
+  unknownToString
+} from '@mitojs/remitojs-utils'
+import { LogTypes, TrackReportDataType } from '@mitojs/remitojs-types'
 import { WxOptions } from './wxOptions'
 import { WxTransport } from './wxTransport'
 import { WxOptionsFieldsTypes } from './types'

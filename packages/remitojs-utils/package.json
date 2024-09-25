@@ -1,0 +1,30 @@
+{
+  "name": "remitojs-utils",
+  "version": "0.0.4",
+  "description": "remitojs-utils",
+  "author": "Lgowen",
+  "license": "MIT",
+  "main": "dist/remitojs-utils.js",
+  "module": "dist/remitojs-utils.esm.js",
+  "types": "dist/remitojs-utils.d.ts",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/Lgowen/mitojs/blob/master/packages/utils/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lgowen/mitojs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lgowen/mitojs/issues"
+  },
+  "keywords": [
+    "mitojs",
+    "sdk",
+    "monitor"
+  ],
+  "dependencies": {
+    "remitojs-shared": "0.0.4",
+    "remitojs-types": "0.0.4"
+  }
+}

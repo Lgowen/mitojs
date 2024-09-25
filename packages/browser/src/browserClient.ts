@@ -1,4 +1,4 @@
-import { Breadcrumb, BaseClient } from '@mitojs/core'
+import { Breadcrumb, BaseClient } from '@mitojs/remitojs-core'
 import {
   BrowserBreadcrumbTypes,
   BrowserEventTypes,
@@ -18,8 +18,8 @@ import {
   isError,
   Severity,
   unknownToString
-} from '@mitojs/utils'
-import { LogTypes } from '@mitojs/types'
+} from '@mitojs/remitojs-utils'
+import { LogTypes } from '@mitojs/remitojs-types'
 import { BrowserOptions } from './browserOptions'
 import { BrowserTransport } from './browserTransport'
 import { BrowserOptionsFieldsTypes } from './types'

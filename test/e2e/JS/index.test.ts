@@ -9,8 +9,8 @@ import {
   SDK_VERSION
 } from '@mitojs/shared'
 import puppeteer from 'puppeteer'
-import { BreadcrumbPushData, ReportDataType, TransportDataType } from '@mitojs/types'
-import { SpanStatus, Severity } from '@mitojs/utils'
+import { BreadcrumbPushData, ReportDataType, TransportDataType } from '@mitojs/remitojs-types'
+import { SpanStatus, Severity } from '@mitojs/remitojs-utils'
 import { ServerUrls } from '../../../examples/server/config'
 import { jsUrl } from '@/test/config'
 import { BrowserClient } from '@mitojs/browser'

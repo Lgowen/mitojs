@@ -1,0 +1,45 @@
+{
+  "name": "remitojs-ali-mini",
+  "version": "0.0.8",
+  "description": "A SDK For Monitoring ali-mini Errors",
+  "author": "Lgowen",
+  "license": "MIT",
+  "main": "./dist/remitojs-ali-mini.js",
+  "module": "./dist/remitojs-ali-mini.js",
+  "types": "./dist/remitojs-ali-mini.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/remitojs-ali-mini.esm.js",
+      "require": "./dist/remitojs-ali-mini.js"
+    }
+  },
+  "homepage": "https://github.com/Lgowen/mitojs/blob/master/packages/ali-mini/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lgowen/mitojs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lgowen/mitojs/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "mitojs",
+    "sdk",
+    "ali-mini",
+    "monitor"
+  ],
+  "dependencies": {
+    "@mini-types/alipay": "^3.0.14"
+  },
+  "peerDependencies": {
+    "remitojs-core": "0.0.4",
+    "remitojs-shared": "0.0.4",
+    "remitojs-types": "0.0.4",
+    "remitojs-utils": "0.0.4"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

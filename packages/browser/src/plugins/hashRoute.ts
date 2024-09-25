@@ -1,6 +1,6 @@
 import { BrowserBreadcrumbTypes, BrowserEventTypes } from '@mitojs/shared'
-import { isExistProperty, on, parseUrlToObj, _global } from '@mitojs/utils'
-import { BasePluginType, RouteChangeCollectType } from '@mitojs/types'
+import { isExistProperty, on, parseUrlToObj, _global } from '@mitojs/remitojs-utils'
+import { BasePluginType, RouteChangeCollectType } from '@mitojs/remitojs-types'
 import { BrowserClient } from '../browserClient'
 import { addBreadcrumbInBrowser } from '../utils'
 

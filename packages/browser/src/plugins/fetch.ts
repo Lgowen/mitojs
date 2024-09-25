@@ -1,6 +1,6 @@
 import { BrowserEventTypes, HttpTypes } from '@mitojs/shared'
-import { getTimestamp, replaceOld, _global } from '@mitojs/utils'
-import { BasePluginType, HttpCollectedType, HttpTransformedType, voidFun } from '@mitojs/types'
+import { getTimestamp, replaceOld, _global } from '@mitojs/remitojs-utils'
+import { BasePluginType, HttpCollectedType, HttpTransformedType, voidFun } from '@mitojs/remitojs-types'
 import { BrowserClient } from '../browserClient'
 import { httpTransform, httpTransformedDataConsumer } from './xhr'
 

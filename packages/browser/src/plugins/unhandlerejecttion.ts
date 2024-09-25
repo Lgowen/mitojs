@@ -1,6 +1,6 @@
 import { BrowserBreadcrumbTypes, BrowserEventTypes, ErrorTypes } from '@mitojs/shared'
-import { extractErrorStack, getLocationHref, getTimestamp, isError, on, Severity, unknownToString, _global } from '@mitojs/utils'
-import { BasePluginType, HttpTransformedType, ReportDataType } from '@mitojs/types'
+import { extractErrorStack, getLocationHref, getTimestamp, isError, on, Severity, unknownToString, _global } from '@mitojs/remitojs-utils'
+import { BasePluginType, HttpTransformedType, ReportDataType } from '@mitojs/remitojs-types'
 import { BrowserClient } from '../browserClient'
 import { addBreadcrumbInBrowser } from '../utils'
 

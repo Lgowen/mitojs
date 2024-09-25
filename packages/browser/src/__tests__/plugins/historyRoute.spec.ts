@@ -1,6 +1,6 @@
 import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes } from '@mitojs/shared'
-import { RouteChangeCollectType } from '@mitojs/types'
-import { sleepRun, _global } from '@mitojs/utils'
+import { RouteChangeCollectType } from '@mitojs/remitojs-types'
+import { sleepRun, _global } from '@mitojs/remitojs-utils'
 import { BrowserClient } from '../../browserClient'
 import historyRoutePlugin from '../../plugins/historyRoute'
 

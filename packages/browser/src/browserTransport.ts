@@ -1,8 +1,8 @@
 import { MethodTypes, ToStringTypes } from '@mitojs/shared'
 import { BrowserOptionsFieldsTypes } from './types'
-import { safeStringify, toStringValidateOption } from '@mitojs/utils'
-import { ReportDataType } from '@mitojs/types'
-import { BaseTransport } from '@mitojs/core'
+import { safeStringify, toStringValidateOption } from '@mitojs/remitojs-utils'
+import { ReportDataType } from '@mitojs/remitojs-types'
+import { BaseTransport } from '@mitojs/remitojs-core'
 
 export class BrowserTransport extends BaseTransport<BrowserOptionsFieldsTypes> {
   configReportXhr: unknown

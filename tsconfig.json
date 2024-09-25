@@ -29,6 +29,7 @@
       "node",
       "jest",
       "wechat-miniprogram",
+      "@mini-types/alipay",
       "puppeteer"
     ],
     "target": "ES5", // 编译成什么版本

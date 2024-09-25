@@ -1,6 +1,6 @@
 import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, ErrorTypes } from '@mitojs/shared'
-import { ReportDataType } from '@mitojs/types'
-import { Severity, sleepRun } from '@mitojs/utils'
+import { ReportDataType } from '@mitojs/remitojs-types'
+import { Severity, sleepRun } from '@mitojs/remitojs-utils'
 import { BrowserClient } from '../../browserClient'
 import errorPlugin from '../../plugins/error'
 

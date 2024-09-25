@@ -1,7 +1,7 @@
 import { BaseBreadcrumbTypes, BREADCRUMBCATEGORYS, ErrorTypes, SDK_NAME, SDK_VERSION } from '@mitojs/shared'
 import { reactUrl } from '@/test/config'
-import { TransportDataType } from '@mitojs/types'
-import { Severity } from '@mitojs/utils'
+import { TransportDataType } from '@mitojs/remitojs-types'
+import { Severity } from '@mitojs/remitojs-utils'
 import puppeteer from 'puppeteer'
 import { BrowserClient } from '@mitojs/browser'
 

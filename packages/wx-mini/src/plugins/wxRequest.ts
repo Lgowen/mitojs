@@ -9,8 +9,16 @@ import {
   BREADCRUMBCATEGORYS,
   WxBaseEventTypes
 } from '@mitojs/shared'
-import { fromHttpStatus, getCurrentRoute, getRealPath, getTimestamp, Severity, SpanStatus, variableTypeDetection } from '@mitojs/utils'
-import { BasePluginType, HttpCollectedType, HttpTransformedType } from '@mitojs/types'
+import {
+  fromHttpStatus,
+  getCurrentRoute,
+  getRealPath,
+  getTimestamp,
+  Severity,
+  SpanStatus,
+  variableTypeDetection
+} from '@mitojs/remitojs-utils'
+import { BasePluginType, HttpCollectedType, HttpTransformedType } from '@mitojs/remitojs-types'
 import { WxClient } from '../wxClient'
 import { addBreadcrumbInWx } from '../utils'
 

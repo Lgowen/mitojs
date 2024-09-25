@@ -1,7 +1,7 @@
 import { ToStringTypes } from '@mitojs/shared'
-import { toStringValidateOption, _support } from '@mitojs/utils'
-import { ReportDataType } from '@mitojs/types'
-import { BaseTransport } from '@mitojs/core'
+import { toStringValidateOption, _support } from '@mitojs/remitojs-utils'
+import { ReportDataType } from '@mitojs/remitojs-types'
+import { BaseTransport } from '@mitojs/remitojs-core'
 import { WxOptionsFieldsTypes } from './types'
 
 export class WxTransport extends BaseTransport<WxOptionsFieldsTypes> {

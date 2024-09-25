@@ -1,5 +1,5 @@
-import { getBreadcrumbCategoryInWx, setUrlQuery, Severity, variableTypeDetection } from '@mitojs/utils'
-import { DeviceInfo } from '@mitojs/types'
+import { getBreadcrumbCategoryInWx, setUrlQuery, Severity, variableTypeDetection } from '@mitojs/remitojs-utils'
+import { DeviceInfo } from '@mitojs/remitojs-types'
 import { WxClient } from './wxClient'
 import { WxBreadcrumbTypes } from '@mitojs/shared'
 

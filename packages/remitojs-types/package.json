@@ -1,0 +1,32 @@
+{
+  "name": "remitojs-types",
+  "version": "0.0.4",
+  "description": "remitojs-types",
+  "author": "Lgowen",
+  "license": "MIT",
+  "main": "dist/remitojs-types.js",
+  "module": "dist/remitojs-types.esm.js",
+  "types": "dist/remitojs-types.d.ts",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/Lgowen/mitojs/blob/master/packages/types/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lgowen/mitojs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lgowen/mitojs/issues"
+  },
+  "keywords": [
+    "mitojs",
+    "sdk",
+    "monitor"
+  ],
+  "dependencies": {
+    "remitojs-core": "0.0.4",
+    "remitojs-utils": "0.0.4",
+    "remitojs-shared": "0.0.4",
+    "@types/wechat-miniprogram": "^3.1.0"
+  }
+}

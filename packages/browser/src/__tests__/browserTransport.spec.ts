@@ -1,7 +1,7 @@
-import { Breadcrumb } from '@mitojs/core'
-import { sleepRun } from '@mitojs/utils'
+import { Breadcrumb } from '@mitojs/remitojs-core'
+import { sleepRun } from '@mitojs/remitojs-utils'
 import { ErrorTypes } from 'packages/shared/src/constant'
-import { ReportDataType } from 'packages/types/src/transport'
+import { ReportDataType } from '../../../remitojs-types/src/transport'
 import { BrowserTransport } from '../browserTransport'
 const breadcrumb = new Breadcrumb()
 const trackId = '123-123-456-456'

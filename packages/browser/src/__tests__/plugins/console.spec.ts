@@ -1,7 +1,7 @@
 import { BrowserClient } from '@mitojs/browser'
 import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes } from '@mitojs/shared'
-import { ConsoleCollectType } from '@mitojs/types'
-import { Severity } from '@mitojs/utils'
+import { ConsoleCollectType } from '@mitojs/remitojs-types'
+import { Severity } from '@mitojs/remitojs-utils'
 import consolePlugin from '../../plugins/console'
 describe('consolePlugin', () => {
   const browserInstance = new BrowserClient({

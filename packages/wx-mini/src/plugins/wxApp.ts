@@ -1,5 +1,5 @@
 import { ErrorTypes, WxAppEvents, WxBreadcrumbTypes, WxEventTypes } from '@mitojs/shared'
-import { BasePluginType, ReportDataType, voidFun } from '@mitojs/types'
+import { BasePluginType, ReportDataType, voidFun } from '@mitojs/remitojs-types'
 import {
   extractErrorStack,
   getCurrentRoute,
@@ -11,7 +11,7 @@ import {
   Severity,
   unknownToString,
   _support
-} from '@mitojs/utils'
+} from '@mitojs/remitojs-utils'
 import { WxLifeCycleBreadcrumb } from '../types'
 import { addBreadcrumbInWx, getWxMiniDeviceInfo } from '../utils'
 import { WxClient } from '../wxClient'

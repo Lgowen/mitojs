@@ -1,0 +1,26 @@
+{
+  "name": "remitojs-shared",
+  "version": "0.0.4",
+  "description": "remitojs-shared",
+  "author": "Lgowen",
+  "license": "MIT",
+  "main": "dist/remitojs-shared.js",
+  "module": "dist/remitojs-shared.esm.js",
+  "types": "dist/remitojs-shared.d.ts",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/Lgowen/mitojs/blob/master/packages/shared/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lgowen/mitojs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lgowen/mitojs/issues"
+  },
+  "keywords": [
+    "mitojs",
+    "sdk",
+    "monitor"
+  ]
+}

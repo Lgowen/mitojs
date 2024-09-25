@@ -1,5 +1,5 @@
 import { noop, getPageUrl, getDeviceId } from '../utils'
-import { generateUUID, toStringValidateOption } from '@mitojs/utils'
+import { generateUUID, toStringValidateOption } from '@mitojs/remitojs-utils'
 import { WxPerformanceDataType, WxPerformanceItemType } from '../constant'
 import Event from './event'
 import {

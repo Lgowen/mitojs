@@ -10,8 +10,8 @@ import {
   SpanStatus,
   getLocationHref,
   getRealPath
-} from '@mitojs/utils'
-import { BasePluginType, HttpCollectedType, HttpTransformedType, MITOXMLHttpRequest, voidFun } from '@mitojs/types'
+} from '@mitojs/remitojs-utils'
+import { BasePluginType, HttpCollectedType, HttpTransformedType, MITOXMLHttpRequest, voidFun } from '@mitojs/remitojs-types'
 import { BrowserClient } from '../browserClient'
 import { addBreadcrumbInBrowser } from '../utils'
 

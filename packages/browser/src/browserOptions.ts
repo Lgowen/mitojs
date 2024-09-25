@@ -1,6 +1,6 @@
-import { BaseOptions } from '@mitojs/core'
+import { BaseOptions } from '@mitojs/remitojs-core'
 import { ToStringTypes } from '@mitojs/shared'
-import { validateOptionsAndSet } from '@mitojs/utils'
+import { validateOptionsAndSet } from '@mitojs/remitojs-utils'
 import { BrowserOptionsFieldsTypes } from './types'
 
 export class BrowserOptions extends BaseOptions<BrowserOptionsFieldsTypes> {

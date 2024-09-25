@@ -1,0 +1,32 @@
+{
+  "name": "remitojs-vue",
+  "version": "0.0.4",
+  "description": "A SDK for monitoring Vue errors",
+  "author": "Lgowen",
+  "license": "MIT",
+  "main": "dist/remitojs-vue.js",
+  "module": "dist/remitojs-vue.esm.js",
+  "types": "dist/remitojs-vue.d.ts",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/Lgowen/mitojs/blob/master/packages/vue/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lgowen/mitojs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lgowen/mitojs/issues"
+  },
+  "keywords": [
+    "mitojs",
+    "sdk",
+    "vue",
+    "monitor"
+  ],
+  "dependencies": {
+    "remitojs-utils": "0.0.4",
+    "remitojs-shared": "0.0.4",
+    "remitojs-types": "0.0.4"
+  }
+}

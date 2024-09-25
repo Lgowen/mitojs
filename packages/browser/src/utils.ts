@@ -1,5 +1,5 @@
 import { BrowserBreadcrumbTypes } from '@mitojs/shared'
-import { getBreadcrumbCategoryInBrowser, Severity } from '@mitojs/utils'
+import { getBreadcrumbCategoryInBrowser, Severity } from '@mitojs/remitojs-utils'
 import { BrowserClient } from './browserClient'
 
 export function addBreadcrumbInBrowser(

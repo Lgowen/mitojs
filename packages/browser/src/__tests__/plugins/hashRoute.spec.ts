@@ -1,6 +1,6 @@
 import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, BrowserEventTypes } from '@mitojs/shared'
-import { RouteChangeCollectType } from '@mitojs/types'
-import { on, _global } from '@mitojs/utils'
+import { RouteChangeCollectType } from '@mitojs/remitojs-types'
+import { on, _global } from '@mitojs/remitojs-utils'
 import { BrowserClient } from '../../browserClient'
 import hashRoutePlugin from '../../plugins/hashRoute'
 

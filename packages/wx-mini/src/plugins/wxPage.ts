@@ -1,6 +1,6 @@
 import { WxPageEvents, WxBreadcrumbTypes, WxEventTypes } from '@mitojs/shared'
-import { BasePluginType, voidFun } from '@mitojs/types'
-import { firstStrtoLowerCase, isEmptyObject, replaceOld } from '@mitojs/utils'
+import { BasePluginType, voidFun } from '@mitojs/remitojs-types'
+import { firstStrtoLowerCase, isEmptyObject, replaceOld } from '@mitojs/remitojs-utils'
 import { WxLifeCycleBreadcrumb, WxOnShareAppMessageBreadcrumb, WxOnTabItemTapBreadcrumb } from '../types'
 import { addBreadcrumbInWx, getCurrentPagesPop } from '../utils'
 import { WxClient } from '../wxClient'

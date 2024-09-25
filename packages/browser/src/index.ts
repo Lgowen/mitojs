@@ -9,7 +9,7 @@ import hashRoutePlugin from './plugins/hashRoute'
 import historyRoutePlugin from './plugins/historyRoute'
 import consolePlugin from './plugins/console'
 import unhandlerejectionPlugin from './plugins/unhandlerejecttion'
-import { BasePluginType } from '@mitojs/types'
+import { BasePluginType } from '@mitojs/remitojs-types'
 function createBrowserInstance(options: BrowserOptionsFieldsTypes = {}, plugins: BasePluginType[] = []) {
   const browserClient = new BrowserClient(options)
   const browserPlugins = [

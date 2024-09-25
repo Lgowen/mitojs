@@ -1,7 +1,7 @@
-import { BaseClient } from '@mitojs/core'
+import { BaseClient } from '@mitojs/remitojs-core'
 import { BaseBreadcrumbTypes, BREADCRUMBCATEGORYS, ErrorTypes } from '@mitojs/shared'
-import { ReportDataType } from '@mitojs/types'
-import { extractErrorStack, Severity } from '@mitojs/utils'
+import { ReportDataType } from '@mitojs/remitojs-types'
+import { extractErrorStack, Severity } from '@mitojs/remitojs-utils'
 import { PureComponent, ReactNode, ErrorInfo, ComponentType, FC } from 'react'
 import { MitoContext } from './provider'
 

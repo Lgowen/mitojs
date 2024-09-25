@@ -1,6 +1,6 @@
 import { LinstenerTypes, WxBaseEventTypes, WxBreadcrumbTypes } from '@mitojs/shared'
-import { BasePluginType } from '@mitojs/types'
-import { isEmptyObject, replaceOld, throttle } from '@mitojs/utils'
+import { BasePluginType } from '@mitojs/remitojs-types'
+import { isEmptyObject, replaceOld, throttle } from '@mitojs/remitojs-utils'
 import { addBreadcrumbInWx, targetAsString } from '../utils'
 import { WxClient } from '../wxClient'
 import { invokeCallbackInReplaceComponent, invokeCallbackInReplacePage } from './wxPage'
