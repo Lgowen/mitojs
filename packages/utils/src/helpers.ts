@@ -46,7 +46,7 @@ export function on(
  * @param {boolean} [isForced=false] 是否强制重写（可能原先没有该属性）
  */
 export function replaceOld(source: IAnyObject, name: string, replacement: (...args: any[]) => any, isForced = false): void {
-  if (source === undefined) return
+  if (!source) return
   if (name in source || isForced) {
     const original = source[name]
     const wrapped = replacement(original)

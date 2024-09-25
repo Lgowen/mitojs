@@ -1,7 +1,7 @@
 {
-  "name": "@mitojs/utils",
+  "name": "@remitojs/utils",
   "version": "3.0.1",
-  "description": "@mitojs/utils",
+  "description": "@remitojs/utils",
   "author": "cjinhuo",
   "license": "MIT",
   "main": "dist/utils.js",
@@ -24,7 +24,7 @@
     "monitor"
   ],
   "dependencies": {
-    "@mitojs/shared": "3.0.1",
-    "@mitojs/types": "3.0.1"
+    "@remitojs/shared": "0.0.1",
+    "@remitojs/types": "0.0.1"
   }
 }

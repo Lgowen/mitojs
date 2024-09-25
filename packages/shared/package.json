@@ -1,7 +1,7 @@
 {
-  "name": "@mitojs/shared",
+  "name": "@remitojs/shared",
   "version": "3.0.1",
-  "description": "@mitojs/shared",
+  "description": "@remitojs/shared",
   "author": "cjinhuo",
   "license": "MIT",
   "main": "dist/shared.js",

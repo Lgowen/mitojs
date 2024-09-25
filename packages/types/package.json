@@ -1,7 +1,7 @@
 {
-  "name": "@mitojs/types",
+  "name": "@remitojs/types",
   "version": "3.0.1",
-  "description": "@mitojs/types",
+  "description": "@remitojs/types",
   "author": "cjinhuo",
   "license": "MIT",
   "main": "dist/types.js",
@@ -24,9 +24,9 @@
     "monitor"
   ],
   "dependencies": {
-    "@mitojs/core": "3.0.1",
-    "@mitojs/utils": "3.0.1",
-    "@mitojs/shared": "3.0.1",
+    "@remitojs/core": "0.0.1",
+    "@remitojs/utils": "0.0.1",
+    "@remitojs/shared": "0.0.1",
     "@types/wechat-miniprogram": "^3.1.0"
   }
 }

@@ -27,6 +27,10 @@ export const isWxMiniEnv =
   variableTypeDetection.isObject(typeof wx !== 'undefined' ? wx : 0) &&
   variableTypeDetection.isFunction(typeof App !== 'undefined' ? App : 0)
 
+const isMy = variableTypeDetection.isObject(typeof my !== 'undefined' ? my : 0)
+const isMyApp = variableTypeDetection.isFunction(typeof App !== 'undefined' ? App : 0)
+export const isMyMiniEnv = isMy && isMyApp
+
 export const isBrowserEnv = variableTypeDetection.isWindow(typeof window !== 'undefined' ? window : 0)
 /**
  * 获取全局变量
@@ -36,6 +40,7 @@ export const isBrowserEnv = variableTypeDetection.isWindow(typeof window !== 'un
 export function getGlobal<T>() {
   if (isBrowserEnv) return window as unknown as MITOGlobal & T
   if (isWxMiniEnv) return wx as unknown as MITOGlobal & T
+  if (isMyMiniEnv) return my as unknown as MITOGlobal & T
   // it's true when run e2e
   if (isNodeEnv) return process as unknown as MITOGlobal & T
 }

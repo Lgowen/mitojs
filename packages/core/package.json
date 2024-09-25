@@ -1,7 +1,7 @@
 {
-  "name": "@mitojs/core",
+  "name": "@remitojs/core",
   "version": "3.0.1",
-  "description": "@mitojs/core",
+  "description": "@remitojs/core",
   "author": "cjinhuo",
   "license": "MIT",
   "main": "dist/core.js",
@@ -24,8 +24,8 @@
     "monitor"
   ],
   "dependencies": {
-    "@mitojs/types": "3.0.1",
-    "@mitojs/utils": "3.0.1",
-    "@mitojs/shared": "3.0.1"
+    "@remitojs/types": "0.0.1",
+    "@remitojs/utils": "0.0.1",
+    "@remitojs/shared": "0.0.1"
   }
 }
